@@ -1,0 +1,3 @@
+[31m✗   1. A : The string is reversed after replacing "World" with "Python"
+[31m✗   2. A : The list `b` references `a`, so changes in `b` affect `a`
+[31m✗   3. A : Default list in the function definition is mutable and shared between calls

@@ -1,0 +1,25 @@
+[31m✗   1. A : __slots__ restricts attribute creation to save memory and prevent dynamic attribute addition.
+[32m✔   2. A
+[31m✗   3. A : yield from delegates iteration to another generator or iterable.
+[31m✗   4. A : The default mutable argument (b) persists across calls, accumulating values.
+[31m✗   5. A : lru_cache caches function results for optimization.
+[31m✗   6. A : @dataclass auto-generates methods like __init__ and __repr__.
+[31m✗   7. A : The colon (:) is invalid in tuple assignment.
+[31m✗   8. A : += modifies x and y in place since they reference the same list.
+[32m✔   9. A
+[32m✔   10. A
+[31m✗   11. A : math.isclose() handles precision issues when comparing floats.
+[32m✔   12. A
+[31m✗   13. A : is checks identity (object reference), == checks value equality.
+[31m✗   14. A : GIL in CPython limits parallel thread execution but not multithreading entirely.
+[32m✔   15. A
+[32m✔   16. A
+[32m✔   17. A
+[31m✗   18. A : Floating-point arithmetic results in precision issues (0.1 + 0.2 != 0.3).
+[31m✗   19. A : @staticmethod is independent of self or cls, while @classmethod uses cls.
+[31m✗   20. A : Python supports chained comparisons; 1 < 2 > 3 evaluates to False.
+[32m✔   21. A
+[31m✗   22. A : my_list[3] is out of range, raising an IndexError.
+[31m✗   23. A : The add() method adds an element to the set.
+[31m✗   24. A : @private is not a valid Python decorator.
+[31m✗   25. A : The mutable default argument persists, so the list grows across calls.

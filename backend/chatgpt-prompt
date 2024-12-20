@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# author:	Sean O'Beirne
+# file:		create-chatgpt-prompt
+
+# usage: create-chatgpt-prompt 
+
+# a prompt to give ChatGPT to template a compatible test
+
+################################################################################
+
+echo "I have written an application in Python which takes a very specifically formatted quiz and presents each question to me along with answer choices. They are always multiple choice, 4 answers. I need the format to exactly match the below example: "
+echo ""
+
+cat ./sample-test
+
+echo ""
+echo "I will give you a detailed description of what I would like to be tested on, and I will specify the difficulty as well. There should always be 25 questions on the test."
+echo ""
+
+echo "Every quiz also needs a key, so we can not only see the correct answer, but also understand it by including an explanation for each question. Again, this format is VERY SPECIFIC. Please do keep that in mind as you generate the keys for the quiz I will ask for. Below is the 'key' format: "
+echo ""
+
+cat ./sample-key
+
+# echo "As a crucial final note, please KEEP THE QUIZ QUESTIONS IN ONE CODE BLOCK. do NOT, under ANY circumstances, create text that is not in the code chunk. Please also do the same for the proceeding key file."
+# echo "You CONSTANTLY seem to mess this code-chunk rule up. Please do not include any code snippets inside of a code chunk, as this breaks your output."
+echo ""
+echo "Do you understand the request here, and are you able to perfectly replicate these two formatting rules?"

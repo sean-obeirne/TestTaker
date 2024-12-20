@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# author:	Sean O'Beirne
+# file:		auto-copy
+
+# usage: auto-copy 
+
+################################################################################
+
+
+cd ./backend
+./chatgpt-prompt | wl-copy

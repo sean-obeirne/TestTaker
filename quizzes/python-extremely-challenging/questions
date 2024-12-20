@@ -1,0 +1,200 @@
+What is the purpose of the __slots__ attribute in a Python class?
+A) To make the class immutable
+B) To prevent the creation of new instance attributes dynamically
+C) To enable automatic garbage collection
+D) To allow multiple inheritance
+
+What will list(filter(None, [0, 1, False, True, [], [1], '', 'Python'])) evaluate to?
+A) [1, True, [1], 'Python']
+B) [1, True, 'Python']
+C) [True, [1], 'Python']
+D) [1, True, [], [1], 'Python']
+
+What does the yield from statement do in a generator?
+A) Terminates the generator
+B) Yields elements from another iterable
+C) Raises a StopIteration exception
+D) Optimizes memory usage
+
+What is the output of the following code snippet?
+
+def func(a, b=[]):
+    b.append(a)
+    return b
+print(func(1))  
+print(func(2))  
+
+A) [1] and [2]
+B) [1] and [1, 2]
+C) [1] and [1]
+D) [2] and [2, 1]
+
+What does the functools.lru_cache decorator do?
+A) Logs function calls
+B) Optimizes recursive functions
+C) Caches function results to improve performance
+D) Limits the memory used by a function
+
+What is the purpose of the @dataclass decorator in Python?
+A) To enforce type annotations
+B) To create a class with built-in methods like __init__ and __repr__
+C) To ensure immutability of objects
+D) To optimize the class for concurrent operations
+
+Which of the following will cause a SyntaxError in Python?
+A) if True: pass
+B) lambda x: x + 1
+C) a = (1, 2, 3):
+D) x = 'string'[::-1]
+
+What will the following code output?
+
+x = [1, 2, 3]
+y = x
+y += [4, 5]
+print(x)
+
+A) [1, 2, 3]
+B) [1, 2, 3, 4, 5]
+C) [4, 5]
+D) TypeError
+
+Which method is used to define behavior for the in operator in a custom class?
+A) __contains__
+B) __getitem__
+C) __iter__
+D) __in__
+
+What does the exec() function do in Python?
+A) Executes a Python code object or string dynamically
+B) Compiles Python code into a .pyc file
+C) Executes a system command
+D) Creates a Python virtual environment
+
+How can you safely compare two floating-point numbers for equality in Python?
+A) Using the == operator
+B) Using the isclose() method from the math module
+C) Using round()
+D) Using integer casting
+
+What does the following code output?
+
+print((lambda x: x**2)(2))
+
+A) 4
+B) <function>
+C) 2**2
+D) None
+
+What is the difference between is and == in Python?
+A) is checks value equality, while == checks identity
+B) is checks identity, while == checks value equality
+C) Both perform value equality checks
+D) Both perform identity checks
+
+Which of the following is true about Python’s Global Interpreter Lock (GIL)?
+A) It is present in all Python implementations
+B) It prevents multithreading entirely
+C) It is only in CPython and limits parallel execution of threads
+D) It is deprecated in Python 3
+
+What will this code output?
+
+class A:
+    pass
+a = A()
+print(hasattr(a, '__class__'))
+
+A) True
+B) False
+C) None
+D) AttributeError
+
+What does the following code do?
+
+import this
+
+A) Prints "The Zen of Python"
+B) Raises an ImportError
+C) Imports a custom module called this
+D) Executes a Python Easter egg
+
+What is the default return value of a Python function that does not explicitly return anything?
+A) None
+B) 0
+C) False
+D) ""
+
+What will the following code output?
+
+x = 0.1 + 0.2
+print(x == 0.3)
+
+A) True
+B) False
+C) None
+D) Error
+
+What is the difference between @staticmethod and @classmethod?
+A) @staticmethod works with instances, while @classmethod works with the class
+B) @staticmethod has no access to self or cls, while @classmethod accesses cls
+C) @staticmethod accesses cls, while @classmethod has no such access
+D) Both are interchangeable
+
+What is the result of the following code?
+
+print(1 < 2 > 3)
+
+A) True
+B) False
+C) None
+D) Error
+
+What will the following code output?
+
+print(type(type))
+
+A) <class 'type'>
+B) <class 'object'>
+C) type
+D) object
+
+What will the following code do?
+
+my_list = [1, 2, 3]
+my_list[3] = 4
+
+A) Add 4 to the list
+B) Raise an IndexError
+C) Overwrite the last element with 4
+D) Do nothing
+
+What does the following code do?
+
+x = {1, 2, 3}
+x.add(4)
+print(x)
+
+A) Raises an AttributeError
+B) Adds 4 to the set
+C) Does nothing
+D) Deletes all elements in the set
+
+Which of the following is not a valid Python decorator?
+A) @property
+B) @staticmethod
+C) @classmethod
+D) @private
+
+What will the following code output?
+
+def f(x=[]):
+    x.append(1)
+    return x
+print(f())
+print(f())
+
+A) [1] and [1]
+B) [1] and [1, 1]
+C) [1, 1] and [1]
+D) [1] and Error

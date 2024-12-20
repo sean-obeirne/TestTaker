@@ -1,0 +1,25 @@
+B # __slots__ restricts attribute creation to save memory and prevent dynamic attribute addition.
+A # filter(None, ...) removes falsey values; [1, True, [1], 'Python'] remains.
+B # yield from delegates iteration to another generator or iterable.
+B # The default mutable argument (b) persists across calls, accumulating values.
+C # lru_cache caches function results for optimization.
+B # @dataclass auto-generates methods like __init__ and __repr__.
+C # The colon (:) is invalid in tuple assignment.
+B # += modifies x and y in place since they reference the same list.
+A # __contains__ implements in for custom classes.
+A # exec() dynamically executes Python code.
+B # math.isclose() handles precision issues when comparing floats.
+A # The lambda function returns 2**2, which evaluates to 4.
+B # is checks identity (object reference), == checks value equality.
+C # GIL in CPython limits parallel thread execution but not multithreading entirely.
+A # All Python objects have the __class__ attribute.
+A # import this prints "The Zen of Python."
+A # A function without an explicit return returns None by default.
+B # Floating-point arithmetic results in precision issues (0.1 + 0.2 != 0.3).
+B # @staticmethod is independent of self or cls, while @classmethod uses cls.
+B # Python supports chained comparisons; 1 < 2 > 3 evaluates to False.
+A # type is an instance of itself, so type(type) returns <class 'type'>.
+B # my_list[3] is out of range, raising an IndexError.
+B # The add() method adds an element to the set.
+D # @private is not a valid Python decorator.
+B # The mutable default argument persists, so the list grows across calls.
