@@ -1,0 +1,149 @@
+1. What does the `:=` operator do in Go?
+   A) Declares and initializes a variable.
+   B) Declares a type alias.
+   C) Compares two values.
+   D) None of the above.
+
+2. Which keyword is used to define a function in Go?
+   A) func
+   B) function
+   C) def
+   D) method
+
+3. What is the zero value of a pointer in Go?
+   A) nil
+   B) 0
+   C) undefined
+   D) NaN
+
+4. How can you manage package imports in Go?
+   A) Import each package on a new line.
+   B) Group them into a single import block.
+   C) Either A or B
+   D) None of the above
+
+5. What is the default visibility of a variable or function starting with a lowercase letter in Go?
+   A) Global
+   B) Package-wide
+   C) Block scope
+   D) None of the above
+
+6. Which of the following is true about Goroutines in Go?
+   A) They are lightweight threads managed by the Go runtime.
+   B) They are heavyweight processes that require manual management.
+   C) They do not allow concurrent execution.
+   D) None of the above.
+
+7. What is a channel in Go?
+   A) A way to organize code into manageable sections.
+   B) A Go data structure that prevents race conditions.
+   C) A mechanism for type-safe, synchronous message passing between Goroutines.
+   D) An external library used for networking.
+
+8. What does the `select` statement do in Go?
+   A) It selects the fastest running Goroutine to execute.
+   B) It is used to choose from multiple send/receive channel operations.
+   C) It filters slices based on conditions.
+   D) It is a statement for switching between data types.
+
+9. Which of these best describes the `sync.Mutex` type?
+   A) It sends signals between goroutines to indicate the status of data.
+   B) It provides a mutual exclusion lock to protect shared data.
+   C) It compiles synchronized code blocks into asynchronous blocks.
+   D) It handles memory management for Goroutines.
+
+10. Which is a common mistake when using Goroutines inside loops?
+    A) Forgetting to pass loop variables as arguments to Goroutines.
+    B) Using a select statement inside the loop.
+    C) Creating a new channel in each iteration of the loop.
+    D) None of the above.
+
+11. What is a slice in Go?
+    A) A dynamically-sized, flexible view into the elements of an array.
+    B) A fixed-size array.
+    C) A map data structure.
+    D) A type of function.
+
+12. How do you declare a map in Go?
+    A) map[keyType]valueType{}
+    B) map{keyType:valueType}
+    C) map[keyType,valueType]
+    D) new(map[keyType]valueType)
+
+13. Which data structure would you use for implementing a LIFO (Last In, First Out) mechanism?
+    A) Array
+    B) Slice
+    C) Map
+    D) Stack
+
+14. What is an interface in Go?
+    A) A collection of method signatures that a type must implement.
+    B) A specific type of function.
+    C) A special data structure for organizing types.
+    D) A package of related methods.
+
+15. Which of these statements about struct tags in Go is correct?
+    A) They provide metadata about the structure fields, interpretable by the Go compiler.
+    B) They are comments that help document the code.
+    C) They add properties to fields for reflection.
+    D) They are ignored by the Go programming language.
+
+16. What is reflection used for in Go?
+    A) Optimizing code at compile time.
+    B) Manipulating objects at runtime by knowing their type.
+    C) Creating new types during runtime.
+    D) Connecting Go code to databases.
+
+17. How does Go handle garbage collection?
+    A) Manual memory management is required.
+    B) Automatic garbage collection.
+    C) Using reference counters.
+    D) None of the above.
+
+18. Which of the following is a true statement about package initialization in Go?
+    A) Packages need to be initialized manually in the main package.
+    B) Initialization occurs automatically when a package is imported.
+    C) A package is initialized after its main function is executed.
+    D) Package initialization is optional.
+
+19. What is the purpose of the `go mod` command?
+    A) To modify existing Go code.
+    B) To provide version management for Go modules.
+    C) To compile Go modules into binary files.
+    D) None of the above.
+
+20. Which practice enhances code reusability in Go?
+    A) Using short, non-descriptive variable names.
+    B) Frequent use of global variables.
+    C) Writing loosely coupled, modular functions.
+    D) Copying and pasting code between projects.
+
+21. How do you handle errors in Go?
+    A) Using try/catch blocks.
+    B) Returning an error as part of the function's return signature.
+    C) Ignoring errors.
+    D) Using panic and recover.
+
+22. Which tool can be used to format Go code?
+    A) gofmt
+    B) GoFix
+    C) GoLint
+    D) GoPad
+
+23. Which statement about dependency management in Go is accurate?
+    A) Dependencies are managed manually in the source code.
+    B) Go uses a centralized package manager like npm or pip.
+    C) Dependencies can be managed using `go get` and the Go module system.
+    D) All dependencies must be compiled into the codebase.
+
+24. What does the `defer` keyword do?
+    A) Delays the execution of a function until the surrounding function returns.
+    B) Defers the execution of a Goroutine.
+    C) Postpones variable initialization.
+    D) None of the above.
+
+25. What is an idiomatic way to iterate over elements in a slice in Go?
+    A) Using a for loop with an index variable.
+    B) Using a map function.
+    C) Using pointers.
+    D) Using a while loop.

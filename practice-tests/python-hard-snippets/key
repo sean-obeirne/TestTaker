@@ -1,0 +1,26 @@
+1. a) # The string is reversed after replacing "World" with "Python"
+2. b) # The list `b` references `a`, so changes in `b` affect `a`
+3. b) # Default list in the function definition is mutable and shared between calls
+4. b) # The `del` statement removes the first element from the list
+5. c) # Lambda function multiplies 5 by (5+1)
+6. a) # Dictionary comprehension stores squares of numbers; 2 squared is 4
+7. b) # The loop breaks before the `else` block, so nothing is printed
+8. d) # The output depends on the order `set` processes the characters, which is not specified
+9. a) # Dividing by zero raises a ZeroDivisionError
+10. b) # 3 raised to the power of 3 is 27
+11. b) # Dictionary comprehension with values before keys and `l` is the last occurrence at index 3
+12. a) # Slicing with step 2, starting from index 0
+13. b) # 5 to the power of 3 is 125
+14. b) # Catches and handles division by zero specifically
+15. a) # Python concatenates the strings, as they are not converted to integers
+16. a) # ASCII values are converted to characters, forming 'Hello'
+17. b) # Floating point precision issue; 0.1 + 0.2 does not exactly equal 0.3
+18. b) # Lambda doubles each element, resulting in [2, 4, 6]
+19. a) # Filters and keeps only numbers less than zero
+20. a) # `enumerate` provides a tuple (index, value) for each element
+21. a) # `zip` pairs elements from two lists and `dict` makes a dictionary from these pairs
+22. a) # Python handles slicing beyond string length by returning the whole string
+23. a) # Reassignment of `b` does not affect `a`
+24. b) # Lambda returns False since 0 is not greater than 0
+25. a) # Accesses the nested dictionary correctly to retrieve 'value'
+

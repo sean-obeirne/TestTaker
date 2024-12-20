@@ -1,0 +1,26 @@
+1. B  # Integer division in Python uses '//' and results in the integer quotient of the division.
+2. A  # The 'input()' function is used to read input from the console in Python.
+3. B  # Functions in Python are defined using the 'def' keyword followed by the function name.
+4. C  # A set in Python is an unordered collection of unique elements, preventing duplicates.
+5. A  # In Python, you can directly assign a numerical value to a variable without specifying the type.
+6. D  # Both 'list1 = list()' and 'list1 = []' are correct ways to create a list in Python.
+7. A  # A correct if statement in Python ends with a colon and the body is indented.
+8. A  # The 'len()' function returns the number of items in an object like a list, tuple, or string.
+9. A  # The 'math' module contains a collection of mathematical operations and constants.
+10. A # The 'try' keyword starts a block of code that will be attempted, and any errors will be caught in 'except' blocks.
+11. A # To convert a string to an integer, you use the 'int()' function in Python.
+12. B # Indexing a string in Python starts at 0, so "Python"[1] returns 'y'.
+13. B # The '*' operator is used for multiplication in Python.
+14. B # The 'break' keyword exits a loop entirely, regardless of the loop condition.
+15. A # A dictionary in Python uses curly braces with key-value pairs separated by colons.
+16. B # Classes in Python are defined using the 'class' keyword followed by the class name and a colon, and 'pass' can be used if no methods are defined.
+17. B # The 'append()' method adds an element to the end of a list.
+18. A # The 'pop()' method removes and returns an item from a list at a given index or from the end if no index is specified.
+19. A # The 'in' keyword is used to check if an item is present in a list or other collections.
+20. B # In Python, 'True' is equivalent to 1 and 'False' is equivalent to 0 in boolean contexts.
+21. B # The '**' operator is used for exponentiation; '5 ** 2' calculates 5 squared, which is 25.
+22. C # Negative indexing starts from the end of the list, so 'numbers[-1]' accesses the last element, which is 5.
+23. B # The 'w' mode in 'open()' is used to open a file for writing, creating it if it does not exist.
+24. D # Modules in Python are imported using the 'import' keyword followed by the module name.
+25. B # The expression '2 ** 3 ** 2' evaluates right-to-left as 3 ** 2 = 9, then 2 ** 9 = 512.
+

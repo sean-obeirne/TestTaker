@@ -1,0 +1,154 @@
+1. What is the primary function of a memory-mapped I/O in embedded systems?
+a) To store configuration files
+b) To allocate dynamic memory for embedded applications
+c) To interface the processor with peripheral devices
+d) To provide additional volatile storage
+
+2. What does the `volatile` keyword indicate in C?
+a) The variable is optimized aggressively by the compiler
+b) The value of the variable may change at any time outside the control flow
+c) The variable is stored in a special memory region
+d) The variable can only be read, not written to
+
+3. In an embedded system, what does a watchdog timer do?
+a) Resets the system when a predefined event occurs
+b) Ensures the system never sleeps
+c) Prevents memory corruption
+d) Provides timing for low-level I/O operations
+
+4. Which of the following is an appropriate use of bit manipulation in embedded systems?
+a) Accessing memory buffers
+b) Controlling hardware registers
+c) Implementing recursion
+d) Allocating memory dynamically
+
+5. In a real-time system, what is the most critical performance requirement?
+a) Memory efficiency
+b) Minimizing energy consumption
+c) Meeting deadlines predictably
+d) Reducing code size
+
+6. Which of the following is NOT a method to prevent stack overflow in an embedded system?
+a) Using recursion extensively
+b) Limiting the use of large local variables
+c) Monitoring stack usage with debug tools
+d) Reducing interrupt nesting
+
+7. What is the difference between a function pointer and a normal pointer in C?
+a) A function pointer can point to any memory location
+b) A function pointer points to executable code rather than data
+c) A function pointer is stored in ROM
+d) A function pointer automatically dereferences
+
+8. In embedded systems, DMA (Direct Memory Access) is used to:
+a) Transfer data directly between peripherals and memory without CPU intervention
+b) Increase the CPU clock speed dynamically
+c) Perform context switching more efficiently
+d) Access memory over different buses
+
+9. What will be the output of the following C code?
+/* 
+int x = 0xFF;
+printf("%d\n", (x << 4) >> 4);
+*/
+a) 255
+b) 15
+c) 0
+d) -1
+
+10. How does a priority inversion occur in an embedded system?
+a) When a high-priority task waits for a low-priority task to release a resource
+b) When two tasks of equal priority are blocked by a third task
+c) When the scheduler always selects the lowest priority task
+d) When the system clock gets skewed
+
+11. Which of the following statements about `ISR` (Interrupt Service Routine) is correct?
+a) ISRs can be interrupted by lower priority interrupts
+b) ISRs should not contain blocking code
+c) ISRs should not modify hardware registers
+d) ISRs are executed with the same priority as the main program
+
+12. Which C data structure is most suited for implementing a bounded FIFO buffer in embedded systems?
+a) Linked list
+b) Circular buffer
+c) Hash table
+d) Stack
+
+13. What is the key difference between polling and interrupts?
+a) Polling consumes more CPU cycles than interrupts
+b) Polling handles events more quickly than interrupts
+c) Polling guarantees event handling within a fixed time
+d) Polling is used in real-time systems, interrupts are not
+
+14. In embedded C, what does the `__attribute__((packed))` pragma do?
+a) Optimizes the memory alignment of structures
+b) Forces structures to be allocated in a specific memory segment
+c) Ensures no padding is added between structure members
+d) Reserves stack space for faster access
+
+15. What is the primary purpose of debouncing in embedded systems?
+a) To prevent power fluctuations
+b) To eliminate spurious signals from a mechanical switch
+c) To delay the system start-up for power conservation
+d) To handle floating-point errors
+
+16. What is the difference between hard and soft real-time systems?
+a) Hard real-time systems have strict deadline requirements, while soft real-time systems do not
+b) Soft real-time systems crash if deadlines are not met
+c) Hard real-time systems always consume more memory
+d) Soft real-time systems have non-preemptive multitasking
+
+17. What is the size of a pointer on a 32-bit system?
+a) 2 bytes
+b) 4 bytes
+c) 8 bytes
+d) It depends on the type of data it points to
+
+18. In which of the following cases would you use a semaphore in an embedded system?
+a) To synchronize access to shared resources between tasks
+b) To handle hardware interrupts
+c) To manage dynamic memory allocation
+d) To implement non-blocking I/O operations
+
+19. How can deadlock be prevented in an embedded system?
+a) By using circular wait conditions
+b) By ensuring mutual exclusion is not required
+c) By ordering resource acquisition
+d) By using recursive functions
+
+20. Which of the following is NOT a characteristic of real-time operating systems (RTOS)?
+a) Preemptive multitasking
+b) Priority-based scheduling
+c) Deterministic behavior
+d) Extensive use of paging
+
+21. What is the primary reason for using fixed-point arithmetic in embedded systems instead of floating-point?
+a) Fixed-point arithmetic is more precise
+b) Fixed-point arithmetic is easier to implement in hardware
+c) Fixed-point arithmetic consumes fewer CPU cycles
+d) Fixed-point arithmetic handles larger ranges of numbers
+
+22. Which method is most commonly used for debugging embedded systems with limited hardware?
+a) Using printf statements
+b) Attaching a logic analyzer to hardware pins
+c) Using an in-circuit emulator (ICE)
+d) Remote debugging over a network
+
+23. In C, what is the correct syntax for accessing the address of an array element `arr[i]`?
+a) `&arr[i]`
+b) `arr + i`
+c) Both a and b
+d) `*(arr + i)`
+
+24. How is endianness relevant in embedded systems?
+a) It determines how memory is physically laid out
+b) It affects how multi-byte data is stored and interpreted
+c) It influences the instruction set architecture
+d) It is related to the priority of interrupts
+
+25. Which of the following would likely cause an embedded system to enter a brownout condition?
+a) Fluctuations in the power supply voltage
+b) Corruption in the memory stack
+c) Running multiple threads simultaneously
+d) Excessive interrupt requests
+

@@ -1,0 +1,25 @@
+1. c # Memory-mapped I/O allows direct access to hardware registers for controlling devices.
+2. b # volatile tells the compiler that the variable can change due to external events, like hardware interrupts.
+3. a # A watchdog timer resets the system if the software fails to periodically reset the timer.
+4. b # Bit manipulation is often used to control specific bits in hardware registers, such as setting flags.
+5. c # Real-time systems must ensure tasks are completed within specified time constraints.
+6. a # Recursion can quickly consume stack space, leading to overflow, especially in memory-constrained systems.
+7. b # Function pointers store the address of a function, pointing to code instead of variables.
+8. a # DMA allows peripherals to directly read/write memory, freeing the CPU for other tasks.
+9. a # The left shift adds zeroes to the least significant bits, then the right shift restores the original value.
+10. a # Priority inversion happens when a low-priority task blocks a higher-priority task, leading to issues in real-time systems.
+11. b # Interrupt Service Routines should be fast and non-blocking to avoid delaying other critical system functions.
+12. b # Circular buffers are ideal for implementing FIFO structures, especially when memory is limited.
+13. a # Polling continuously checks the status of a device, consuming more CPU resources compared to interrupts.
+14. c # The packed attribute prevents padding in structures, allowing tightly packed data structures in memory.
+15. b # Mechanical switches can generate noisy signals when pressed, which need to be debounced for reliability.
+16. a # Hard real-time systems must meet deadlines precisely, whereas soft real-time systems can tolerate delays.
+17. b # On a typical 32-bit system, an integer is 4 bytes, allowing for 32-bit precision.
+18. a # Semaphores are used for managing shared resources to prevent race conditions in multitasking environments.
+19. c # Deadlocks can be avoided by acquiring resources in a specific order, preventing circular wait conditions.
+20. d # RTOSs typically avoid using paging since it can introduce non-deterministic behavior, which is unsuitable for real-time systems.
+21. c # Fixed-point arithmetic is faster and requires less processing power than floating-point arithmetic, which is beneficial in embedded systems.
+22. c # An in-circuit emulator allows developers to debug embedded systems with limited hardware by emulating the CPU and peripherals.
+23. c # The address of an array element can be accessed using both `&arr[i]` and `arr + i` in C.
+24. b # Endianness determines the byte order in memory, which can affect how multi-byte values are interpreted in embedded systems.
+25. a # Brownout occurs when the supply voltage drops below a certain threshold, causing the system to malfunction.

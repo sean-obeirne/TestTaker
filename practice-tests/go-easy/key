@@ -1,0 +1,15 @@
+1. A # Correct declaration of a variable in Go specifies type after the variable name.
+2. A # Functions in Go are defined using the 'func' keyword followed by the function's name.
+3. A # The default zero value for an integer in Go is 0.
+4. A # The syntax `:=` is used to declare and initialize a slice.
+5. C # The 'import' keyword is used to include packages in Go.
+6. A # 'const' is the keyword used for declaring constants in Go.
+7. B # Slices in Go are zero-indexed; the first element is accessed with index 0.
+8. B # The 'make' function is used specifically to initialize slices, maps, and channels.
+9. D # Type assertion in Go is used to check a variable's type, returning a boolean status.
+10. B # A method in Go is a function that has a defined receiver, typically within a struct.
+11. B # 'break' is the keyword used to exit loops in Go.
+12. D # All listed options are valid ways to write an 'if' statement in Go.
+13. A # Structs in Go are declared using the 'type' keyword followed by the struct name and the keyword 'struct'.
+14. B # Interfaces in Go are defined using the 'type' keyword followed by the interface name and the keyword 'interface'.
+15. B # The 'for' loop is the primary loop used in Go and is versatile for iterating over slices.

@@ -1,0 +1,15 @@
+[32m✔   1. B
+[31m✗   2. D : Filters even numbers by checking if x % 2 is zero.
+[32m✔   3. C
+[31m✗   4. B : Creates pairs (x, y) for x not equal to y.
+[31m✗   5. A : Flattens a list of lists into a single list.
+[32m✔   6. A
+[32m✔   7. A
+[32m✔   8. A
+[31m✗   9. A : Extracts the first letter of each word in the given list.
+[31m✗   10. B : Calculates the sum for each combination of x and y from two lists.
+[31m✗   11. D : Extracts numbers from 0 to 99 that are divisible by 10.
+[31m✗   12. B : Flattens a matrix and filters out non-zero elements.
+[32m✔   13. A
+[31m✗   14. B : Assigns 'even' or 'odd' based on the parity of each number.
+[32m✔   15. A

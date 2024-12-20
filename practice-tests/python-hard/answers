@@ -1,0 +1,25 @@
+[32m✔   1. C
+[32m✔   2. B
+[32m✔   3. A
+[32m✔   4. B
+[32m✔   5. C
+[32m✔   6. A
+[32m✔   7. A
+[31m✗   8. D : Curly braces with comma-separated values are used to create a set in Python.
+[31m✗   9. A : The function appends to the same list (default list in the function definition) on each call.
+[32m✔   10. A
+[32m✔   11. A
+[31m✗   12. A : The 'in' keyword checks for the existence of a key in a dictionary.
+[32m✔   13. B
+[32m✔   14. B
+[32m✔   15. D
+[31m✗   16. D : The `asyncio` library can run multiple IO-bound tasks concurrently using a single thread.
+[31m✗   17. D : `lru_cache` from `functools` is used to cache function call results to improve performance.
+[32m✔   18. B
+[32m✔   19. C
+[31m✗   20. B : Using a dictionary allows maintaining order and removing duplicates efficiently by using keys.
+[31m✗   21. D : The slicing operation replaces the element at index 2 with [7, 8], updating the list in place.
+[32m✔   22. A
+[32m✔   23. A
+[31m✗   24. B : `isinstance()` checks if an instance is of a specified type or class.
+[31m✗   25. D : The `yield` keyword allows a function to return values one at a time, and resume where it left off.

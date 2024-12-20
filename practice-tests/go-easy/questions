@@ -1,0 +1,89 @@
+1. What is the correct way to declare a variable in Go?
+   A) var myVar int
+   B) int myVar
+   C) myVar := int
+   D) int = myVar
+
+2. Which of the following is a correct function declaration in Go?
+   A) func MyFunction() {}
+   B) function MyFunction() {}
+   C) MyFunction func() {}
+   D) function = MyFunction()
+
+3. What is the default value of an int type in Go?
+   A) 0
+   B) 1
+   C) null
+   D) undefined
+
+4. How do you create a new slice in Go?
+   A) newSlice := []int{}
+   B) newSlice = []int{}
+   C) []int newSlice{}
+   D) slice newSlice := []int{}
+
+5. Which of the following is used to import a package in Go?
+   A) use
+   B) require
+   C) import
+   D) include
+
+6. Which keyword is used to create a constant in Go?
+   A) const
+   B) constant
+   C) final
+   D) fixed
+
+7. How do you access the first element of a slice mySlice?
+   A) mySlice[1]
+   B) mySlice[0]
+   C) mySlice.first()
+   D) mySlice.get(0)
+
+8. What does the make function do in Go?
+   A) Instantiates a new struct.
+   B) Allocates and initializes an object of type slice, map, or channel only.
+   C) Creates a new variable.
+   D) Compiles the program.
+
+9. Which of the following correctly checks if a variable x is of type int?
+   A) type(x) == int
+   B) x.type == int
+   C) x instanceof int
+   D) _, ok := x.(int); ok
+
+10. What is a method in Go?
+    A) A standalone function.
+    B) A function that is defined inside a struct.
+    C) A special kind of constant.
+    D) A variable type.
+
+11. Which statement is used to exit a loop in Go?
+    A) exit
+    B) break
+    C) stop
+    D) terminate
+
+12. How do you write an if statement in Go?
+    A) if (x > 0) {}
+    B) if x > 0 {}
+    C) if (x > 0) {}
+    D) All of the above
+
+13. What is the correct syntax to declare a new struct in Go?
+    A) type MyStruct struct {}
+    B) struct MyStruct {}
+    C) new struct MyStruct {}
+    D) type struct MyStruct {}
+
+14. What is the syntax for defining a new interface in Go?
+    A) interface MyInterface {}
+    B) type MyInterface interface {}
+    C) type interface MyInterface {}
+    D) new interface MyInterface {}
+
+15. Which loop structure is commonly used in Go to iterate over items in a slice?
+    A) while
+    B) for
+    C) loop
+    D) repeat

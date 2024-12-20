@@ -1,0 +1,179 @@
+1. What is the output of `print(10 // 3)`?
+   A) 3.333
+   B) 3
+   C) 4
+   D) Syntax Error
+
+2. Which function in Python is used to read input from the console?
+   A) input()
+   B) read()
+   C) get()
+   D) scanf()
+
+3. Which keyword is used to create a function in Python?
+   A) func
+   B) def
+   C) function
+   D) declare
+
+4. Which of these collections does not allow duplicate elements?
+   A) List
+   B) Dictionary
+   C) Set
+   D) Tuple
+
+5. How do you create a variable with the numeric value 5?
+   A) x = 5
+   B) int x = 5
+   C) x = int(5)
+   D) float x = 5
+
+6. What is the correct way to create a list?
+   A) list1 = list()
+   B) list1 = {}
+   C) list1 = []
+   D) Both A and C
+
+7. Which of these is a correct if statement in Python?
+   A) if x > y: print("x is greater")
+   B) if (x > y) {print("x is greater")}
+   C) if (x > y) print("x is greater")
+   D) if x > y then print("x is greater")
+
+8. What does the `len()` function do?
+   A) Returns the length of an object
+   B) Returns the size of an object
+   C) Returns the type of an object
+   D) Returns the value of an object
+
+9. Which module in Python contains functions for mathematical operations?
+   A) math
+   B) str
+   C) sys
+   D) os
+
+10. What keyword is used to handle exceptions in Python?
+    A) try
+    B) catch
+    C) handle
+    D) error
+
+11. How do you convert the string "123" to the number 123?
+    A) int("123")
+    B) str(123)
+    C) num("123")
+    D) "123".to_i()
+
+12. What is the output of this code?
+    print("Python"[1])
+    A) P
+    B) y
+    C) t
+    D) Error
+
+13. Which operator is used to multiply numbers?
+    A) %
+    B) *
+    C) x
+    D) #
+
+14. What does the `break` keyword do in a loop?
+    A) Pauses the loop
+    B) Stops the loop entirely
+    C) Skips one iteration of the loop
+    D) None of the above
+
+15. How do you create a dictionary with keys "a" and "b" both set to 0?
+    A) {"a": 0, "b": 0}
+    B) {"a", "b": 0}
+    C) {"a", "b" = 0}
+    D) {("a", "b"): 0}
+
+16. What is the correct way to define a class named 'Car' in Python?
+    A) class Car()
+    B) class Car: pass
+    C) class Car {}
+    D) new class Car:
+
+17. How do you add a new element to the end of a list named 'items'?
+    A) items.add(5)
+    B) items.append(5)
+    C) items.insert(5)
+    D) items.put(5)
+
+18. Which of these methods can be used to remove an item from a list?
+    A) .pop()
+    B) .push()
+    C) .pull()
+    D) .drop()
+
+19. How do you check if "apple" is in the list `fruits`?
+    A) "apple" in fruits
+    B) fruits.contains("apple")
+    C) fruits.has("apple")
+    D) fruits.find("apple")
+
+20. What is the output of `print(1 == True)`?
+    A) 1
+    B) True
+    C) False
+    D) Error
+
+21. What is the result of `5 ** 2`?
+    A) 10
+    B) 25
+    C) 7
+    D) 2.5
+
+22. What does the following code output?
+    numbers = [1, 2, 3, 4, 5]
+    print(numbers[-1])
+    A) 1
+    B) 2
+    C) 5
+    D) Error
+
+23. Which of the following is used to create a new file in Python?
+    A) open("myfile.txt", "r")
+    B) open("myfile.txt", "w")
+    C) open("myfile.txt", "x")
+    D) open("myfile.txt", "m")
+
+24. What keyword is used to import a module in Python?
+    A) package
+    B) module
+    C) require
+    D) import
+
+25. What is the output of `print(2 ** 3 ** 2)`?
+    A) 64
+    B) 512
+    C) 256
+    D) 729
+
+
+
+
+Programming Tasks (30 minutes each)
+Task 1: Basic File Reader
+
+Objective: Write a Python script to read a text file and print each line with a line number.
+
+Requirements:
+
+    Prompt the user for a file name.
+    Open and read the file line by line.
+    Print each line preceded by its line number.
+
+Task 2: Simple Calculator
+
+Objective: Develop a Python script that acts as a basic calculator allowing the user to add, subtract, multiply, or divide two numbers.
+
+Requirements:
+
+    Prompt the user to enter two numbers.
+    Ask the user for the type of operation (addition, subtraction, multiplication, division).
+    Perform the operation and display the result.
+    Handle any possible input errors gracefully, including division by zero and non-numeric inputs.
+
+These tasks and questions are geared toward beginners and should help gauge fundamental understanding of Python syntax and basic programming concepts.

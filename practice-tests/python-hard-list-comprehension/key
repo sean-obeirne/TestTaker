@@ -1,0 +1,16 @@
+1. B  # Multiplies each number in range(0,5) by 2.
+2. A  # Filters even numbers by checking if x % 2 is zero.
+3. C  # Squares only odd numbers from 1 to 5.
+4. B  # Creates pairs (x, y) for x not equal to y.
+5. D  # Flattens a list of lists into a single list.
+6. A  # Applies the lower() method to each string, converting them to lowercase.
+7. A  # Filters squares of numbers from 0 to 9 that are greater than 15.
+8. A  # Repeats each character in 'hello' three times.
+9. B  # Extracts the first letter of each word in the given list.
+10. D # Calculates the sum for each combination of x and y from two lists.
+11. A  # Extracts numbers from 0 to 99 that are divisible by 10.
+12. A  # Flattens a matrix and filters out non-zero elements.
+13. A  # Converts integers to strings, keeps strings as they are.
+14. B  # Assigns 'even' or 'odd' based on the parity of each number.
+15. A  # Creates a dictionary where keys are numbers and values are their squares.
+

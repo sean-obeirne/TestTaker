@@ -1,0 +1,25 @@
+1. A # ':=' is used for short variable declaration, which declares and initializes a variable.
+2. A # Functions in Go are defined using the 'func' keyword.
+3. A # The zero value for a pointer in Go is 'nil'.
+4. C # Package imports can be managed either by individual lines or grouped into a single block.
+5. B # By default, identifiers starting with a lowercase letter are accessible only within the same package.
+6. A # Goroutines are lightweight and managed by the Go runtime for concurrent execution.
+7. C # Channels facilitate synchronous message passing between Goroutines, ensuring safe communication.
+8. B # The 'select' statement is used for choosing among multiple channel operations, which can proceed.
+9. B # sync.Mutex is used to provide a locking mechanism to ensure mutual exclusion and protect shared resources.
+10. A # Not passing loop variables as arguments to Goroutines can lead to unintended sharing of the variable across iterations.
+11. A # Slices provide a dynamically-sized view into the elements of an array.
+12. A # Maps are declared with the syntax 'map[keyType]valueType{}'.
+13. D # A stack is a data structure that operates on a LIFO basis, which is not directly provided by Go but can be implemented using slices.
+14. A # An interface in Go is defined as a set of method signatures that a type must implement.
+15. C # Struct tags in Go provide metadata about the fields of a struct, which can be accessed using reflection.
+16. B # Reflection in Go is used to inspect and manipulate objects at runtime based on their type.
+17. B # Go provides automatic garbage collection to manage memory allocation and deallocation.
+18. B # When a package is imported, its initialization functions are automatically executed before the main application.
+19. B # 'go mod' is used for managing module versions and dependencies in a Go project.
+20. C # Writing modular functions that are loosely coupled enhances code reusability in Go.
+21. B # Error handling in Go is typically done by returning errors as part of the function's return signature.
+22. A # 'gofmt' is the standard tool used for formatting Go code.
+23. C # Dependencies in Go are managed using the 'go get' command and through the module system, which supports versioning and package resolution.
+24. A # The 'defer' keyword postpones the execution of a function until the surrounding function completes.
+25. A # Iterating over elements in a slice is typically done using a for loop with an index variable.

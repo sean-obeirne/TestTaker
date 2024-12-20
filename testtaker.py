@@ -1,3 +1,5 @@
+#!/bin/python
+
 import os
 import sys
 
@@ -21,17 +23,41 @@ class Colors:
     BRIGHT_WHITE = '\033[97m'
 
 
+# PRACTICE_DIR = "/home/sean/documents/practice-tests/"
+PRACTICE_DIR = "./practice-tests/"
 
 
 
-os.chdir(sys.argv[1])
-dir = os.path.basename(sys.argv[1][:-1]) # elim trailing /
 
-num_questions = sys.argv[2]
+contents = os.listdir(PRACTICE_DIR)
+for i, c in enumerate(contents):
+    print(f"  {Colors.BRIGHT_CYAN}{i+1}: {c}{Colors.RESET}")
+choice = input(f"{Colors.YELLOW}select a test by number: {Colors.RESET}")
+if choice in ('', 'q'):
+    exit(0)
+
+dir = PRACTICE_DIR + contents[int(choice)-1] + "/"
+os.chdir(dir)
+file = dir + contents[int(choice)-1]
+
+action = 0
+
+while action != "1":
+    print(f"{Colors.BRIGHT_CYAN}  1. Take test")
+    print(f"  2. Print answers{Colors.RESET}")
+    action = input(f"{Colors.YELLOW}Select action: {Colors.RESET}")
+    if action in ('', 'q'):
+        exit(0)
+    if action == '2':
+        with open("answers", "r") as a:
+            print(a.read())
+            next = input(f"{Colors.YELLOW}continue...{Colors.RESET}").upper()
+            continue
+
 
 questions = []
 
-with open(dir + "-questions", "r") as q:
+with open("questions", "r") as q:
 
     # Construct questions
     qs = q.readlines()
@@ -46,38 +72,45 @@ with open(dir + "-questions", "r") as q:
             questions.append(qbuilder)
             qbuilder = ""
         qbuilder += qline + "\n"
+    questions.append(qbuilder)
     # for ques in questions:
     #     print(ques)
 
     # ask questions
 
-with open(dir + "-answers", "w") as a, open(dir + "-key", "r") as k:
+with open("answers", "w") as a, open("key", "r") as k:
     ks = k.readlines()
     
-    print('\033c')
     for i, q in enumerate(questions):
-        print(f"{Colors.CYAN}{q}{Colors.RESET}")
+        print('\033c', end="")
+        print(f"{Colors.BRIGHT_CYAN}{q}{Colors.RESET}")
         answer = input(f"{Colors.YELLOW}answer: {Colors.RESET}").upper()
         print()
+        while answer not in ("A", "B", "C", "D", "Q"):
+            print(f"{Colors.RED}Invalid answer{Colors.RESET}")
+            answer = input(f"{Colors.YELLOW}answer: {Colors.RESET}").upper()
         if answer == 'Q':
             exit(0)
-        prefix = f"{i+1} "
-        correct_ans = f"{ks[i].split(" #")[0].split(". ")[1]}".upper()
+        prefix = f"{i+1}. "
+        correct_ans = f"{ks[i].split(" #")[0].split(". ")[1][0]}".upper()
         explanation = f"{ks[i].split("# ")[1]}"
         
         color = Colors.RED
         if correct_ans.strip() == answer.strip():
             color = Colors.GREEN
             print(f"{color}Correct!!!\n{Colors.RESET}")
+            a.write(f"{color}✔   {prefix}{answer}\n")
         else:
             print(f"{color}Incorrect...\n{Colors.RESET}")
+            a.write(f"{color}✗   {prefix}{answer} : {explanation.strip()}\n")
         
         print(f"    {Colors.YELLOW}You answered: {Colors.RESET}{color}{answer}{Colors.RESET}\t  {Colors.YELLOW}Correct Answer: {Colors.RESET}{color}{correct_ans}\n\n{explanation.strip()}{Colors.RESET}\n")
         
 
-        a.write(f"{prefix}{answer}\n")
         next = input(f"{Colors.YELLOW}continue...{Colors.RESET}").upper()
         if next == 'Q':
             exit(0)
         print('\033c')
-    print("asking questions")
+with open("answers", "r") as a:
+    print(a.read())
+    next = input(f"{Colors.YELLOW}quiting...{Colors.RESET}").upper()

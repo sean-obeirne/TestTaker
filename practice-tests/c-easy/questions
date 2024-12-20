@@ -1,0 +1,154 @@
+1. What is an embedded system?
+a) A general-purpose computer
+b) A computer designed to perform a specific function
+c) A computer without any peripherals
+d) A computer that runs only Windows
+
+2. What is the purpose of the `main()` function in C?
+a) It serves as the entry point for any C program
+b) It declares global variables
+c) It is used to allocate memory dynamically
+d) It initializes all hardware
+
+3. Which of the following is used to declare an integer constant in C?
+a) `int const`
+b) `#define`
+c) `const int`
+d) All of the above
+
+4. What is the size of an integer on a typical 32-bit embedded system?
+a) 1 byte
+b) 2 bytes
+c) 4 bytes
+d) 8 bytes
+
+5. Which of the following C operators is used to access a pointer's value?
+a) `&`
+b) `*`
+c) `->`
+d) `%`
+
+6. Which of the following describes a microcontroller?
+a) A general-purpose processor
+b) A processor with built-in memory and I/O peripherals
+c) A high-speed processor for personal computers
+d) A device for wireless communication
+
+7. What does the `if` statement in C do?
+a) It repeats a block of code
+b) It executes a block of code if a condition is true
+c) It defines a function
+d) It performs bitwise operations
+
+8. In an embedded system, what is the role of a GPIO pin?
+a) To perform floating-point operations
+b) To control input/output devices like LEDs and buttons
+c) To increase the clock speed of the system
+d) To manage power consumption
+
+9. What is a stack in C programming?
+a) A dynamic memory allocation method
+b) A data structure that follows Last-In-First-Out (LIFO) order
+c) A structure used to store global variables
+d) A method for organizing CPU registers
+
+10. What is the purpose of the `for` loop in C?
+a) To execute code based on conditions
+b) To repeat a block of code a specified number of times
+c) To allocate memory dynamically
+d) To handle interrupts
+
+11. Which data type would you use to store the value of a temperature sensor in C?
+a) `char`
+b) `int`
+c) `float`
+d) `double`
+
+12. Which of the following is a common communication protocol in embedded systems?
+a) SPI
+b) HTML
+c) FTP
+d) HTTPS
+
+13. What is the role of an `ISR` (Interrupt Service Routine) in an embedded system?
+a) To execute the main program
+b) To handle events like hardware interrupts
+c) To allocate memory for variables
+d) To manage task scheduling
+
+14. What does the `break` keyword do in a C loop?
+a) It increments the loop counter
+b) It skips to the next iteration
+c) It terminates the loop and moves on to the next statement
+d) It resets the loop variable
+
+15. Which function would you use to print a message to the console in C?
+a) `printf()`
+b) `scanf()`
+c) `fopen()`
+d) `fwrite()`
+
+16. Which of the following describes a real-time operating system (RTOS)?
+a) An operating system that handles tasks based on priority
+b) An operating system for gaming PCs
+c) An operating system that runs without any hardware interrupts
+d) An operating system with no multi-threading support
+
+17. What will be the value of `x` after executing the following code?
+int x = 10;
+x += 5;
+a) 5
+b) 10
+c) 15
+d) 20
+
+18. Which of the following is an example of volatile memory?
+a) Hard drive
+b) EEPROM
+c) RAM
+d) Flash
+
+19. Which header file in C contains functions for standard input/output?
+a) `math.h`
+b) `stdio.h`
+c) `string.h`
+d) `time.h`
+
+20. What will be the output of the following C code?
+int arr[3] = {1, 2, 3};
+printf("%d", arr[1]);
+a) 1
+b) 2
+c) 3
+d) 4
+
+21. What does the term "firmware" refer to in an embedded system?
+a) The physical hardware of the system
+b) The operating system for the system
+c) Software that is permanently programmed into a microcontroller
+d) A software application running on the system
+
+22. What is the result of this expression `4 & 3` in C?
+a) 0
+b) 1
+c) 2
+d) 3
+
+23. What does `NULL` represent in C programming?
+a) A memory address of zero
+b) A random value
+c) An error code
+d) A function pointer
+
+24. Which of the following is a feature of embedded systems?
+a) Limited memory and processing power
+b) General-purpose computing capabilities
+c) High power consumption
+d) Extensive multitasking support
+
+25. In a C program, what is the significance of `return 0` in the `main()` function?
+a) It indicates successful program termination
+b) It restarts the program
+c) It returns a value to the operating system
+d) It allocates memory for the program
+

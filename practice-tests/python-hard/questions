@@ -1,0 +1,203 @@
+1. Which of the following is a mutable data type in Python?
+   A) Tuple
+   B) String
+   C) List
+   D) Frozenset
+
+2. What will be the output of the following code?
+   print(2 ** 3 ** 2)
+   A) 64
+   B) 512
+   C) 256
+   D) 729
+
+3. How does a class inherit from multiple parent classes in Python?
+   A) class Child(Parent1, Parent2): pass
+   B) class Child inherits Parent1, Parent2: pass
+   C) class Child(Parent1 + Parent2): pass
+   D) Not possible in Python
+
+4. What does the `@staticmethod` decorator do?
+   A) Converts a method to be called on an instance of a class
+   B) Allows a method to be called on a class without an instance
+   C) Makes a method private
+   D) None of the above
+
+5. Which keyword is used for error handling in Python?
+   A) handle
+   B) error
+   C) except
+   D) check
+
+6. What is the output of this code?
+   x = 'abcd'
+   for i in range(len(x)):
+       x = 'a'
+       print(x, end='')
+   A) aaaa
+   B) abcd
+   C) aa
+   D) abca
+
+7. Which method is called when an instance of a class is created?
+   A) `__init__()`
+   B) `__new__()`
+   C) `__start__()`
+   D) `__call__()`
+
+8. How can you create a set containing the elements 1, 2, and 3?
+   A) {1, 2, 3}
+   B) [1, 2, 3]
+   C) (1, 2, 3)
+   D) `set(1, 2, 3)`
+
+9. What will the following code output?
+   def func(a, b=[]):
+       b.append(a)
+       return b
+   print(func(1))
+   print(func(2))
+   A) [1] [2]
+   B) [1, 2] [1, 2]
+   C) [1] [1, 2]
+   D) [2] [1, 2]
+
+10. Which statement about decorators in Python is true?
+    A) Decorators modify the functionality of a function.
+    B) Decorators replace the functionality of a function.
+    C) Decorators can only be used with classes.
+    D) Decorators prevent a function from being modified.
+
+11. What does the following code do?
+    [x**2 for x in range(10)]
+    A) Generates a list of squares of numbers from 0 to 9
+    B) Generates a list of square roots from 0 to 9
+    C) Prints squares of numbers from 0 to 9
+    D) Prints square roots from 0 to 9
+
+12. What is the correct way to check if a key exists in a dictionary `d`?
+    A) `d.has_key('key')`
+    B) `'key' in d`
+    C) `d['key']`
+    D) `d.exists('key')`
+
+13. Which of the following is true about the `finally` block in Python exception handling?
+    A) It is executed if the `except` block throws a new exception.
+    B) It is executed regardless if the `try` block raises an error or not.
+    C) It will not execute if the `try` block contains a `return` statement.
+    D) It only executes if no exceptions were raised in the `try` block.
+
+14. What is the output of the following code?
+    def maker(n):
+        return lambda x: x ** n
+
+    f = maker(2)
+    g = maker(3)
+
+    print(f(4), g(4))
+    A) 8 12
+    B) 16 64
+    C) 16 12
+    D) 8 64
+
+15. What is the output of this code?
+    a = [1, 2, 3, None, (), [],]
+    print(len(a))
+    A) 3
+    B) 4
+    C) 5
+    D) 6
+
+16. Which of these about `asyncio` is false?
+    A) It is used to write concurrent code in Python.
+    B) It provides a single-threaded concurrent code execution.
+    C) It cannot run multiple IO-bound tasks at the same time.
+    D) It is part of the Python standard library.
+
+17. Which function from the `functools` module is best suited for caching the results of a function?
+    A) `total_ordering`
+    B) `reduce`
+    C) `lru_cache`
+    D) `partial`
+
+18. What does the following expression return?
+    all([None, 1, [], 'yes'])
+    A) True
+    B) False
+    C) None
+    D) Error
+
+19. What is the purpose of the `__name__` special variable in Python?
+    A) It contains the name of the module.
+    B) It stores the name of the class when used inside a class.
+    C) It ensures the code that checks it only runs if the module is run as the main program.
+    D) It holds the name of the method in a class.
+
+20. What is the most efficient way to remove duplicate values from a list while maintaining order?
+    A) Use a set to remove duplicates, then sort the list.
+    B) Use a loop to manually check for duplicates and remove them.
+    C) Use a dictionary to maintain order and remove duplicates.
+    D) Use the `ordereddict` from `collections` module.
+
+21. What will be the output of the following code snippet?
+    nums = [1, 2, 3, 4]
+    nums[2:3] = [7, 8]
+    print(nums)
+    A) [1, 2, 3, 7, 8, 4]
+    B) [1, 2, 7, 8, 4]
+    C) [1, 2, 7, 3, 8, 4]
+    D) [1, 2, 7, 8]
+
+22. What is the output of this Python code snippet?
+    print(type(lambda : None))
+    A) `<type 'function'>`
+    B) `<type 'lambda'>`
+    C) `<type 'type'>`
+    D) `<type 'NoneType'>`
+
+23. What is the correct way to declare a global variable inside a function in Python?
+    A) global varname
+    B) varname = global
+    C) global(varname)
+    D) declare varname as global
+
+24. Which of the following correctly checks if `a` is an instance of class `C`?
+    A) `isinstance(a, C)`
+    B) `type(a) == type(C)`
+    C) `type(a) == C`
+    D) `a.instance(C)`
+
+25. What is the primary use case for the `yield` keyword in Python?
+    A) It is used to exit a function.
+    B) It is used to return a value from a function, saving the state of the function.
+    C) It indicates that a variable is a global variable.
+    D) It is used to interrupt function execution and return control to the caller.
+
+
+
+Programming Tasks (30 minutes each)
+Task 1: Database Query Simulation
+
+Objective: Write a Python class to simulate database operations that can insert, update, delete, and retrieve records stored in a dictionary.
+
+Requirements:
+
+    Implement a class DatabaseSimulator with methods to add, update, delete, and fetch records.
+    Use a dictionary to store records with unique IDs as keys.
+    Ensure the update operation verifies the existence of a record before updating.
+    Implement error handling to manage attempts to delete or update non-existing records.
+
+Task 2: Event Scheduler
+
+Objective: Develop a Python script that acts as an event scheduler using the datetime and time modules to manage and alert for upcoming events.
+
+Requirements:
+
+    Create a class EventScheduler that can add, edit, and delete events.
+    Events should be stored in a list as dictionaries containing event details and the datetime for the event.
+    Implement a method that checks every minute if there are any events that should alert the user.
+    Provide user-friendly messages for adding, updating, or deleting events, and alerts for upcoming events.
+
+These tasks should challenge an applicant's understanding of Python programming, object-oriented concepts, error handling, and practical application building skills.
+
+

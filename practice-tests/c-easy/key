@@ -1,0 +1,25 @@
+1. b # Embedded systems are specialized computers designed to perform dedicated tasks.
+2. a # The main() function is the starting point of every C program and is called at program execution.
+3. d # Constants in C can be declared using `int const`, `#define`, or `const int`.
+4. c # On most 32-bit embedded systems, an integer is 4 bytes in size.
+5. b # The asterisk (*) is used to dereference a pointer and access the value it points to.
+6. b # A microcontroller typically has a CPU, memory, and peripherals all integrated on a single chip.
+7. b # The `if` statement in C checks a condition and executes a block of code if the condition is true.
+8. b # General Purpose Input/Output (GPIO) pins are used to control and interact with external devices.
+9. b # A stack is a LIFO data structure where the last item added is the first to be removed.
+10. b # The `for` loop repeats a block of code a set number of times.
+11. c # Temperature sensors typically return floating-point values, so `float` is appropriate.
+12. a # SPI (Serial Peripheral Interface) is a common communication protocol in embedded systems.
+13. b # ISRs handle hardware-generated events like interrupts and execute predefined routines in response.
+14. c # The `break` statement exits the loop immediately and proceeds with the code after the loop.
+15. a # The `printf()` function is used to output text to the console in C.
+16. a # RTOSs handle tasks based on their priority, ensuring timely execution of critical tasks.
+17. c # The `x += 5` expression adds 5 to the value of `x`, resulting in 15.
+18. c # RAM is volatile memory, meaning it loses its data when the system is powered off.
+19. b # The `stdio.h` header contains functions for standard input and output operations like `printf()`.
+20. b # Array indexing in C is zero-based, so `arr[1]` refers to the second element, which is 2.
+21. c # Firmware refers to low-level software embedded in hardware, often in ROM or flash memory.
+22. a # The bitwise AND of 4 (binary 100) and 3 (binary 011) is 0 (binary 000).
+23. a # NULL is a special pointer value representing a memory address of 0, indicating no valid address.
+24. a # Embedded systems often have constraints like limited memory and processing power compared to general-purpose computers.
+25. a # In C, returning 0 from the `main()` function signals successful program completion to the operating system.
